@@ -1,0 +1,28 @@
+.button-nav{
+    border-radius: 20px;
+    border: none;
+    background: rgb(245, 56, 56);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s;
+
+    &.start{
+        width: 193px;
+        height: 54px;
+    }
+
+    &.sub{
+        width: 244px;
+        height: 57px;
+    }
+
+    &.plan{
+        width: 173px;
+        height: 45px;
+    }
+}
+
+.button-nav:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,34 @@
+.feed-wr{
+    margin-top: 32px;
+    .container{
+        max-width: 1248px;
+        margin: 0 auto;
+    }
+
+    .comments{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 31px;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .scroll{
+            width: 118px;
+            height: 13px;
+        }
+
+        .arrows{
+            display: flex;
+            column-gap: 50px;
+
+            img{
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}

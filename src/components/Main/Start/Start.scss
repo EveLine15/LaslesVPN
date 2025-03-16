@@ -1,0 +1,36 @@
+.start-wr{
+    margin-top: 98px;
+
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        column-gap: 18px;
+        align-items: center;
+    }
+
+    .left-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1{
+            color: rgb(43, 43, 43);
+            font-size: 50px;
+            font-weight: 400;
+            margin-bottom: 42px;
+
+            span{
+                font-weight: 600;
+            }
+        }
+
+        p{
+            color: rgb(90, 90, 90);
+            font-size: 16px;
+            font-weight: 400;
+            width: 550px;
+            margin-bottom: 58px;
+        }
+    }
+}

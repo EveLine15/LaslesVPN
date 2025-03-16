@@ -1,0 +1,17 @@
+.big-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    h1{
+        color: rgb(21, 21, 21);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    p{
+        color: rgb(100, 100, 100);
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

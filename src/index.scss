@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    src: url('../src/assets/fonts/Rubik-VariableFont_wght.ttf') format('ttf');
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
