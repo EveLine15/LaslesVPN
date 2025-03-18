@@ -1,4 +1,10 @@
 .plan-wr{
+    margin-bottom: 91px;
+
+    @media screen and (max-width:742px) {
+        margin-bottom: 50px;
+    }
+
     .container{
         max-width: 1009px;
         margin: 0 auto;

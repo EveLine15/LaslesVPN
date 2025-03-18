@@ -5,8 +5,7 @@ import icon1 from "../../../assets/icons/person1.png"
 import icon2 from "../../../assets/icons/person2.png"
 import icon3 from "../../../assets/icons/person3.png"
 import scroll from "../../../assets/buttons/scroll.png"
-import left from "../../../assets/buttons/left.png"
-import right from "../../../assets/buttons/right.png"
+import arrow from "../../../assets/buttons/arrow.png"
 
 export default function Feedback(){
     return(
@@ -20,11 +19,16 @@ export default function Feedback(){
                 </div>
 
                 <div className="buttons">
-                        <img className="scroll" src={scroll} alt="scroll"/>
+                        <div className="scroll">
+                            <div className="current"></div>
+                            <div className="dot"></div>
+                            <div className="dot"></div>
+                            <div className="dot"></div>
+                        </div>
 
                         <div className="arrows">
-                            <img src={left} alt="arrow"/>
-                            <img src={right} alt="arrow"/>
+                            <button className="left-arrow"><img src={arrow} alt="arrow"/></button>
+                            <button className="right-arrow"><img src={arrow} alt="arrow"/></button>
                         </div>
                     </div>
             </div>

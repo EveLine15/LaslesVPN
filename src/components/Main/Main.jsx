@@ -6,6 +6,8 @@ import Map from "./Map/Map"
 import Feedback from "./Feedback/Feedback"
 import Subscribe from "./Subscribe/Subscribe"
 
+import "./Main.scss"
+
 export default function Main(){
     return (
         <div className="main-wr">
