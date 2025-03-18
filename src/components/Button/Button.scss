@@ -20,6 +20,12 @@
     &.plan{
         width: 173px;
         height: 45px;
+
+        @media screen and (max-width:742px) {
+            width: 80%;
+            height: 35px;
+            font-size: 15px;
+        }
     }
 }
 

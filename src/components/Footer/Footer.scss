@@ -8,11 +8,25 @@
         align-items: center;
         justify-content: space-between;
         padding: 60px 0;
+
+        @media screen and (max-width: 1010px){
+            width: 90%;
+        }
+
+        @media screen and (max-width: 760px) {
+            flex-direction: column-reverse;
+            align-items: center;
+            
+        }
     }
 
     .text-block{
         width: 484px;
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 526px) {
+            width: 90%;
+        }
     }
 }

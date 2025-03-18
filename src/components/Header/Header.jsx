@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.png';
+import burger from "../../assets/burger.png"
 import './Header.scss'
 
 export default function Header(){
@@ -15,6 +16,10 @@ export default function Header(){
                     <a href="#">Pricing</a>
                     <a href="#">Testimonial</a>
                     <a href="#">Help</a>
+                </div>
+
+                <div className='burger'>
+                    <img src={burger} alt="menu"/>
                 </div>
 
                 <div className='buttons'>

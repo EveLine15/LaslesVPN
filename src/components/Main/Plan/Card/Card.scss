@@ -8,10 +8,26 @@
     padding: 21px 0;
     margin-bottom: 91px;
 
+    @media screen and (max-width: 1048px) {
+        width: 317px;
+    }
+
+    @media screen and (max-width:742px) {
+        width: 553px;
+        margin-bottom: 50px;
+        padding: 12px 30px;
+    }
+
     .box-holder{
         width: 146px;
         height: 167px;
         margin-bottom: 40px;
+
+        @media screen and (max-width:742px) {
+            width: 79.82px;
+            height: 91.3px;
+            margin-bottom: 22px;
+        }
 
         img{
             width: 100%;
@@ -21,10 +37,14 @@
 
     h1{
         color: rgb(43, 43, 43);
-        font-size: 20px;
+        font-size: clamp(15px, 2vw, 20px);
         font-weight: 600;
         line-height: 24px;
         margin-bottom: 55px;
+
+        @media screen and (max-width:742px) {
+            margin-bottom: 30px;
+        }
     }
 
     .abilities{
@@ -33,15 +53,36 @@
         row-gap: 45px;
         margin-bottom: 31px;
         min-height: 344px;
+        overflow-x: auto;
+        white-space: nowrap;
+
+        @media screen and (max-width:742px) {
+            row-gap: 25px;
+            margin-bottom: 17px;
+            min-height: 205px;
+        }
 
         .ability{
             display: flex;
             column-gap: 16px;
             align-items: center;
 
+            @media screen and (max-width:742px) {
+                column-gap: 8.75px;
+            }
+
+            P{
+                font-size: clamp(9px, 2vw, 16px);
+            }
+
             img{
                 width: 20px;
                 height: 20px;
+
+                @media screen and (max-width:742px) {
+                    width: 13.12px;
+                    height: 13.12px;
+                }
             }
 
         }
@@ -49,13 +90,13 @@
 
     h2{
         color: rgb(100, 100, 100);
-        font-size: 20px;
+        font-size: clamp(10px, 2vw, 20px);
         font-weight: 400;
         margin-bottom: 22px;
 
         span{
             color: rgb(43, 43, 43);
-            font-size: 28px;
+            font-size: clamp(18px, 2vw, 28px);
             font-weight: 600;
         }
     }

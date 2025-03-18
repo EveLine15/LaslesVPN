@@ -5,9 +5,18 @@
     position: relative;
     height: fit-content;
 
+    @media screen and (max-width: 570px){
+            column-gap: 13px;
+    }
+
     .img-part{
         width: 37px;
         height: 37px;
+
+        @media screen and (max-width: 570px){
+            width: 20.98px;
+            height: 20.98px;
+        }
 
         img{
             width: 100%;
@@ -18,14 +27,14 @@
     .info-part{
         h1{
             color: rgb(43, 43, 43);
-            font-size: 20px;
+            font-size: clamp(11px, 3vw, 20px);
             font-weight: 800;
             line-height: 24px;
         }
 
         p{
             color: rgb(100, 100, 100);
-            font-size: 15px;
+            font-size: clamp(10px, 3vw, 15px);
             font-weight: 500;
             line-height: 18px;
         }
@@ -40,5 +49,17 @@
     width: 1px;
     height: 100%;
     background: rgb(174, 174, 174);
+
+    @media screen and (max-width: 770px) {
+        right: -50px;
+    }
+
+    @media screen and (max-width: 570px){
+        right: -40px;
+    }
+
+    @media screen and (max-width: 396px) {
+        right: -15px;
+    }
 
 }

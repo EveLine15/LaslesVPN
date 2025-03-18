@@ -19,7 +19,9 @@ export default function Comment(props){
                     <img src={rate} alt="rate"/>
                 </div>
             </div>
-            <p className="comment">{props.content}</p>
+            <div className="disc">
+                <p className="comment">{props.content}</p>
+            </div>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 .feed-wr{
     margin-top: 32px;
+
     .container{
         max-width: 1248px;
         margin: 0 auto;
@@ -7,14 +8,30 @@
 
     .comments{
         display: flex;
-        justify-content: space-between;
+        column-gap: 18px;
         margin-bottom: 31px;
+
+
+        @media screen and (max-width: 1288px) {
+            overflow-x: auto;
+            padding: 0 18px;
+        }
     }
+
+    .comments::-webkit-scrollbar {
+        display: none;
+      }
 
     .buttons{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media screen and (max-width: 1288px) {
+            max-width: 93%;
+            margin: 0 auto;
+            margin-top: 21px;
+        }
 
         .scroll{
             width: 118px;

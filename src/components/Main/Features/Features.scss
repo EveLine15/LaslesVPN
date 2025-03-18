@@ -1,17 +1,34 @@
 .features-wr{
     margin-top: 60px;
 
+    @media screen and (max-width: 425px){
+        margin-bottom: 30px;
+    }
+
     .container{
         max-width: 1100px;
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+
+        @media screen and (max-width: 968px){
+            flex-direction: column;
+        }
     }
 
     .left-part{
         width: 510px;
         height: 416px;
+
+        @media screen and (max-width: 968px){
+            margin-bottom: 28px;
+        }
+
+        @media screen and (max-width: 554px) {
+             width: 90%;
+             height: auto;   
+        }
 
         img{
             width: 100%;
@@ -21,6 +38,10 @@
 
     .right-part{
         max-width: 408px;
+
+        @media screen and (max-width: 968px){
+            max-width: 80%;
+        }
 
         h1{
             color: rgb(43, 43, 43);
@@ -45,7 +66,7 @@
                 margin-bottom: 21px;
                 p{
                     color: rgb(43, 43, 43);
-                    font-size: 16px;
+                    font-size: (10px, 2vw, 16px);
                     font-weight: 600;
                 }
                     

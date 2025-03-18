@@ -3,11 +3,20 @@
     .container{
         max-width: 1136px;
         margin: 0 auto;
+
+        @media screen and (max-width: 1125px) {
+            width: 90%;
+        }
     }
 
     .map{
         width: 1060px;
         height: 539px;
+
+        @media screen and (max-width: 1125px) {
+            width: fit-content;
+            height: auto;
+        }
 
         img{
             width: 100%;
@@ -17,6 +26,11 @@
 
     .comp{
         max-width: 1136px;
+        
+        @media screen and (max-width: 1125px) {
+            width: fit-content;
+            height: auto;
+        }
 
         img{
             width: 100%;
