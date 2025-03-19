@@ -1,0 +1,40 @@
+[
+    {
+        "id": "1",
+        "title":"Free",
+        "price":"Free",
+        "punkts":[
+            "Unlimited bandwitch",
+            "Encrypted connection",
+            "Yes trafic logs"
+        ]
+    },
+
+    {
+        "id": "2",
+        "title":"Standart plan",
+        "price":"$9 /mo",
+        "punkts":[
+            "Unlimited bandwitch",
+            "Encrypted connection",
+            "Yes trafic logs",
+            "Works on all devices",
+            "Connect anyware"
+        ]
+    },
+
+    {
+        "id": "3",
+        "title":"Premium plan",
+        "price":"$12 /mo",
+        "punkts":[
+            "Unlimited bandwitch",
+            "Encrypted connection",
+            "Yes trafic logs",
+            "Works on all devices",
+            "Connect anyware",
+            "Get new features"
+        ]
+    }
+
+]
